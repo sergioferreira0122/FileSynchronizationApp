@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestTask": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Sergio\\Desktop\\Veeam\\source\rC:\\Users\\Sergio\\Desktop\\Veeam\\replica\r\nC:\\Users\\Sergio\\Desktop\\Veeam\\logs\\logs.txt\r5"
+    }
+  }
+}

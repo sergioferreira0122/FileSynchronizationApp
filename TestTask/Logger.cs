@@ -14,6 +14,7 @@
             var logMessage = $"{DateTime.Now}: {message}";
             Console.WriteLine(logMessage);
             _logWriter.WriteLine(logMessage);
+            _logWriter.Flush();
         }
 
         public void Dispose()

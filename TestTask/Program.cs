@@ -12,9 +12,10 @@ class Program
 
         var settings = new Settings(args[0], args[1], args[3]);
 
-        using var logger = new Logger(args[2]);
-
-        var synchronizer = new Synchronizer(logger, settings);
-        synchronizer.Start();
+        using (var logger = new Logger(args[2]))
+        {
+            var synchronizer = new Synchronizer(logger, settings);
+            synchronizer.Start();
+        }
     }
 }
